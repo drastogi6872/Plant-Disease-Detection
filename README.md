@@ -1,364 +1,110 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: http://ogp.me/ns#" lang="en" style="height: 100%" >
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="register.css">
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5" />
+
+  <title>Built with Quest AI</title> 
+<meta name="description" content="Interactive design built with Quest AI"/> 
+<meta property="og:title" content="Built with Quest AI"/> 
+<meta property="og:url" content="https://women-entrepreneurs-in.questai.app/Home//index.html" /> 
+<meta property="og:description" content="Interactive design built with Quest AI" /> 
+<meta property="og:image" content="https://women-entrepreneurs-in.questai.app/Home/assets/screenshot.png" /> 
+<meta property="og:type" content="website" /> 
+<meta name="ref-asset-id" content="gc_25062_9921ae53d00915f271f1f030" /> 
+
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bJkPTOhufE7IbBr_tVw5zLrmdPLfXomjumdjgL3-GZMuNWz8RqJA43wy4N5Vgdmi6dEGLTiyyNW-s061545vuaix3SF9ZsbnZf9TFAtArM4" charset="UTF-8"></script><style>
+</style>
+<script src='data:text/javascript;base64,Ci8qKgogKiAgVGhlIGNvZGUgYWRkZWQgaGVyZSB3aWxsIGJlIGFkZGVkIHRvIHRoZSBoZWFkZXIgKCBhZnRlciB0aGUgbGlicmFyaWVzIHlvdSByZXF1ZXN0ZWQgaW4gU2V0dGluZ3MgKQogKiAKICogIFBsZWFzZSBub3RlOiAKICogICAgLSAgQWRkIG9ubHkgamF2YXNjcmlwdCBmdW5jdGlvbnMgCiAqICAgIC0gIERvIE5PVCBpbmNsdWRlIGFueSBodG1sIHRhZ3MgKCBsaWtlIDogPHNjcmlwdD4gb3IgPGxpbms+ICksIHRoZXkgd29udCB3b3JrCiAqICAgIAogKiAgRXhhbXBsZToKICogCiAqICBmdW5jdGlvbiBkb3VibGVUaGVOdW1iZXIobnVtYmVyVmFsdWUpIHsKICogICAgICByZXR1cm4gaXNGaW5pdGUobnVtYmVyVmFsdWUpKSA/IHBhcnNlRmxvYXQobnVtYmVyVmFsdWUpKjIgOiBOYU47CiAqICB9CiAqIAogKiAgZnVuY3Rpb24gYmxhaEJsYWggKCkgewogKiAgICAgIGNvbnNvbGUubG9nKCJXaHkgYW0gSSBzYXlpbmcgYmxhaCBibGFoICIpOwogKiAgfQogKi8K' id='HeaderScript.js'></script> 
+
+ <style>:root {
+    --underline-text-color: #00bff3;
+    --root-document-scale : 1.0;
+}
+
+.creatorTextElem {
+    text-decoration: inherit;
+    text-decoration-color: inherit;
+}
+
+.creatorTextElem:hover {
+    text-decoration: underline;
+    text-decoration-color: #00bff3;
+}
+
+.websiteBody {
+  margin: 0;
+}
+
+.toolboxIcon {
+    opacity: 0.8;
+    margin-left: -4px;
+    width: 24px;
+    height: 25px;
+}
+
+.toolboxIcon:hover {
+    opacity: 1;
+    /* border: 1px solid grey;
+    border-radius: 3px; */
+}
+
+[contenteditable] {
+    outline: 3px solid #00bff3;
+    user-select: text;
+    -webkit-user-select: text;
+  }
+
+/* .creatorTextElem > a {
+    cursor: pointer;
+    color: unset;
+} */
+
+a {
+    cursor: pointer;
+    color: unset;
+}</style> 
+
+<style>
+</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet"/> 
+<link href="https://fonts.googleapis.com/css?family=Ramaraja:400" rel="stylesheet"/> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <!-- inject:css -->
+  <!-- endinject -->
 </head>
 
-<body>
-    <div class="main">
-    <div class="container">
-        <h2>Register To Get Latest Update !!</h2>
-        <form action="#" class="form">
-            <div class="input">
-                <input type="text" class="item" placeholder="Full name">
-            </div>
-            <div class="input">
-                <input type="email" class="item" placeholder="username">
-            </div>
-            <div class="input">
-                <input type="password" class="item" placeholder="password ">
-            </div>
-            <div class="input">
-                <input type="password" class="item" placeholder="Confirm password ">
-            </div>
-            <div class="input">
-                <input type="tel" class="item" placeholder="Contact Number">
-            </div>
-            <div class="input">
-                <input type="submit" value="Submit" id="submit">
-            </div>
+<body class="websiteBody">
+  <div id="websitediv"></div>
 
-           </section>
-
-    <section id="courses">
-        <h1 class="headingc">Our Courses</h1>
-        <div class="box1">
-            <div id="course1" class="item">
-                <h3 class="subheading">Art and craft</h3>
-                <hr>
-                <p class="subpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores amet earum quos aut iur
-                    doloremque debitis, nesciunt magni perferendis, tenetur possimus porro recusandae illum sit maiores
-                    cumque reiciendis, veniam cum pariatur esse voluptates.</p>
-            </div>
-            <div id="course2" class="item">
-                <h3 class="subheading">Manufactured products</h3>
-                <hr>
-                <p class="subpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores amet earum quos aut iur
-                    doloremque debitis, nesciunt magni perferendis, tenetur possimus porro recusandae illum sit maiores
-                    cumque reiciendis, veniam cum pariatur esse voluptates.</p>
-            </div>
-            <div id="course3" class="item">
-                <h3 class="subheading">Designs</h3>
-                <hr>
-                <p class="subpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores amet earum quos aut iur
-                    doloremque debitis, nesciunt magni perferendis, tenetur possimus porro recusandae illum sit maiores
-                    cumque reiciendis, veniam cum pariatur esse voluptates.</p>
-            </div>
-            <div id="course4" class="item">
-                <h3 class="subheading">Paintings</h3>
-                <hr>
-                <p class="subpara ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores amet earum quos aut iur
-                    doloremque debitis, nesciunt magni perferendis, tenetur possimus porro recusandae illum sit maiores
-                    cumque reiciendis, veniam cum pariatur esse voluptates.</p>
-            </div>
-            <div id="course5" class="item">
-                <h3 class="subheading">manufacturing processes</h3>
-                <hr>
-                <p class="subpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores amet earum quos aut iur
-                    doloremque debitis, nesciunt magni perferendis, tenetur possimus porro recusandae illum sit maiores
-                    cumque reiciendis, veniam cum pariatur esse voluptates.</p>
-            </div>
-            <!-- <div id="course6" class="item">
-                <h3 class="subheading">Biology Courses</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores amet earum quos aut iur
-                    doloremque debitis, nesciunt magni perferendis, tenetur possimus porro recusandae illum sit maiores
-                    cumque reiciendis, veniam cum pariatur esse voluptates.</p>
-            </div> -->
-        </div>
-
-    </section>
-    <section id="benefit">
-        <div id="box2">
-            <div class="weprovide">
-                <img src="class.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, cupiditate hic repellat
-                    minus quas labore sed voluptatibus maiores ipsam magnam totam aliquam!</p>
-            </div>
-            <div class="weprovide">
-                <img src="vocational_training.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, cupiditate hic repellat
-                    minus quas labore sed voluptatibus maiores ipsam magnam totam aliquam!</p>
-            </div>
-            <div class="weprovide">
-                <img src="work.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, cupiditate hic repellat
-                    minus quas labore sed voluptatibus maiores ipsam magnam totam aliquam!</p>
-            </div>
-            <div class="weprovide">
-                <img src="start_ups.jpg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, cupiditate hic repellat
-                    minus quas labore sed voluptatibus maiores ipsam magnam totam aliquam!</p>
-            </div>
-            <!-- <div class="weprovide">
-                <img src="anywhere.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, cupiditate hic repellat minus quas labore sed voluptatibus maiores ipsam magnam totam aliquam!</p>
-            </div> -->
-        </div>
-
-    </section>
-
-        </form>
-        <p>Already Register? <a href="login.html" class="login">Login</a> </p>
-    </div>
-</div>
-
-  <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>name</title>
-    <link rel="stylesheet" href="project wiehack.css">
-    <!-- <link rel="sheet" href="project video.html"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Baloo+Tamma+2:wght@500&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Allura&family=Fredericka+the+Great&family=Girassol&family=Lobster&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-
-    <nav class="navbar">
-        <div class="left">
-            logo
-        </div>
-        <div class="mid">
-            <ul>
-                <li><a href="project techathon.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="project video.html" target="_blank">Videos</a></li>
-                <li><a href="notes.html" target="_blank">Notes</a></li>
-                <li><a href="#">Doubts</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-
-        </div>
-        <div class="right">
-            <button class="btn"><a href="register.html" target="_blank">Register/Login </a></button>
-            <!-- <button class="btn"> <a href="login.html">Register/Login</a> </button> -->
-        </div>
-    </nav>
-
-    <section id="home">
-        <div class="content">
-        <h2>Welcome!! </h2> 
-        <p>"
-          ....We raise up our voice—not so that we can shout, but so that those without a voice can be heard. … We cannot all succeed when half of us are held back........”
-" </p>
-        <!-- <p>We Are With You</p>  -->
-         </div>
+  <a id="__questb_logo" href="https://www.quest.ai/?ref=questbadge" target="_blank" rel="noopener" 
+    style="position:fixed; left: 30px; bottom:30px; display:none; width:112px; height:auto;" data-quest="112"><img
+      id="made_with_questb" alt="Made with Quest" title="Made with Quest" height="auto" width="100%" src="data:image/svg+xml;base64,
+    PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjU0LjU1IDIyNy40MiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fS5jbHMtMntmaWxsOiNkYWQ5ZDk7fS5jbHMtM3tmaWxsOiMwMTAxMDE7fS5jbHMtNHtmaWxsOiMyMzFmMjA7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5NYWRlX1dRdWVzdEFJX2JhZGdlPC90aXRsZT48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjQuNSIgeT0iNC41IiB3aWR0aD0iMTI0NS41NSIgaGVpZ2h0PSIyMTguNDIiIHJ4PSIzMi45MyIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEyNTIuOTMsMjY3LjQ5SDczLjI0YTM3LjQ3LDM3LjQ3LDAsMCwxLTM3LjQzLTM3LjQzVjc3LjVBMzcuNDcsMzcuNDcsMCwwLDEsNzMuMjQsNDAuMDdIMTI1Mi45M2EzNy40NywzNy40NywwLDAsMSwzNy40MywzNy40M1YyMzAuMDZBMzcuNDcsMzcuNDcsMCwwLDEsMTI1Mi45MywyNjcuNDlaTTczLjI0LDQ5LjA3QTI4LjQ2LDI4LjQ2LDAsMCwwLDQ0LjgxLDc3LjVWMjMwLjA2YTI4LjQ2LDI4LjQ2LDAsMCwwLDI4LjQzLDI4LjQzSDEyNTIuOTNhMjguNDcsMjguNDcsMCwwLDAsMjguNDMtMjguNDNWNzcuNWEyOC40NywyOC40NywwLDAsMC0yOC40My0yOC40M1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNS44MSAtNDAuMDcpIi8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMTg1LjU0LDE1Mi42NVYyMDhhNTQuMjEsNTQuMjEsMCwwLDEsMi44
+    NC0xMDguMzRoLjg4YTU0LjI2LDU0LjI2LDAsMCwxLDQ5LjcxLDc0bDE1Ljg4LDE1LjY5YTc1LjM1LDc1LjM1LDAsMSwwLTEwNy45NCwyNy40NSw3NC41OSw3NC41OSwwLDAsMCw0MC41OSwxMi4zNWguMzlhODcuNDMsODcuNDMsMCwwLDAsMTcuMzUtMS40N2wxLjY3LS4yOXYtMzAuM2wyMC40OSwyMS41NywxLjM3LS44OGEuNzcuNzcsMCwwLDEsLjM5LS4yYy4yLS4wOS40OS0uMjkuNjktLjM5YTgxLjEzLDgxLjEzLDAsMCwwLDEyLjM1LTEwLjFsMS40Ny0xLjQ3LTU4LjEzLTU3LjM1WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM1LjgxIC00MC4wNykiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik0zOTguNjMsMTkzLjE2aC05LjI0di0zMGwuODYtMzItMjIuODIsNjJoLTdsLTIyLjc4LTYyLC44NiwzMnYzMGgtOS4yM1YxMTYuMzdoMTJsMjIuNzMsNjIuNzYsMjIuNzMtNjIuNzZoMTJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzUuODEgLTQwLjA3KSIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTQ1My40MiwxODYuOTFhMjUuMjcsMjUuMjcsMCwwLDAsMS4zNCw1LjQxdi44NGgtOS4zM2EyMy44OSwyMy44OSwwLDAsMS0xLjI1LTYsMjAuNjMsMjAuNjMsMCwwLDEtNi40Myw1LjA5LDE3Ljc5LDE3Ljc5LDAsMCwxLTguMjYsMS45MywxOC40NCwxOC40NCwwLDAsMS05LjE2LTIuMjQsMTUuODUsMTUuODUsMCwwLDEtNi4xNy02LjA5LDE3LDE3LDAsMCwxLTIuMTgtOC41NSwxNy45MywxNy45MywwLDAsMSwyLjg1LTEwLjI4LDE3LjI0LDE3LjI0LDAsMCwxLDgu
+    MDgtNi4zNiwzMi43NywzMi43NywwLDAsMSwxMi4zNy0yLjE0SDQ0NFYxNTRjMC0zLjQ4LS45My02LjIyLTIuOC04LjJzLTQuNTUtMy04LjA2LTNhMTIuODQsMTIuODQsMCwwLDAtNS43NCwxLjI0LDkuNzYsOS43NiwwLDAsMC0zLjk1LDMuMzIsNy44OSw3Ljg5LDAsMCwwLTEuNDEsNC41MWgtOC45NWExNC40NCwxNC40NCwwLDAsMSwyLjU4LTguMDcsMTkuMjQsMTkuMjQsMCwwLDEsNy4yOC02LjM2QTIyLjgyLDIyLjgyLDAsMCwxLDQzMy42NSwxMzVhMjIuNDYsMjIuNDYsMCwwLDEsMTAuMDgsMi4xNCwxNS42MSwxNS42MSwwLDAsMSw2Ljc3LDYuNDMsMjEuMTIsMjEuMTIsMCwwLDEsMi40NCwxMC41MnYyNi41OUE0MS41Miw0MS41MiwwLDAsMCw0NTMuNDIsMTg2LjkxWm0tMTYuOTItMi4zMmExNC41MywxNC41MywwLDAsMCw0LjU3LTMuMTQsMTQuMTEsMTQuMTEsMCwwLDAsMi45Mi00LjIyVjE2NS40MmgtNy4yN3EtNy42NywwLTExLjczLDIuNjZhOC44Myw4LjgzLDAsMCwwLTQuMDYsNy44OSwxMC44MSwxMC44MSwwLDAsMCwxLjE0LDUsOC42NCw4LjY0LDAsMCwwLDMuMzUsMy41MSwxMC40NSwxMC40NSwwLDAsMCw1LjM2LDEuMjlBMTMuODksMTMuODksMCwwLDAsNDM2LjUsMTg0LjU5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM1LjgxIC00MC4wNykiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik01MDguNCwxMTIuMTV2ODFoLTguMTlsLS40My02LjA2cS01LjI2LDcuMTMtMTQuNzMsNy4xMmExNi40NiwxNi40NiwwLDAsMS0xMC42My0zLjc1LDI0LjE5
+    LDI0LjE5LDAsMCwxLTcuMi0xMC4zMyw0MC44MSw0MC44MSwwLDAsMS0yLjU2LTE0Ljg4di0xLjExYTQyLjMzLDQyLjMzLDAsMCwxLDIuNTQtMTUuMjQsMjMuMjEsMjMuMjEsMCwwLDEsNy4xOC0xMC4yM0ExNi45MSwxNi45MSwwLDAsMSw0ODUuMTQsMTM1cTkuMTQsMCwxNC4zMSw2LjdWMTEyLjE1Wm0tOC45NSw2NS41NlYxNTEuMjlhMTUuNDEsMTUuNDEsMCwwLDAtNC44MS01LjkxLDEyLjEzLDEyLjEzLDAsMCwwLTcuMy0yLjE2LDExLjE4LDExLjE4LDAsMCwwLTcuNzMsMi43NiwxNi4zMiwxNi4zMiwwLDAsMC00LjU0LDcuNTIsMzYuMzMsMzYuMzMsMCwwLDAtMS40NiwxMC42NXYxLjExYTM1LjUxLDM1LjUxLDAsMCwwLDEuNDYsMTAuNTgsMTYuMTYsMTYuMTYsMCwwLDAsNC41Miw3LjQxLDExLDExLDAsMCwwLDcuNjYsMi43NFE0OTUuNTMsMTg2LDQ5OS40NSwxNzcuNzFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzUuODEgLTQwLjA3KSIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTU2My44NiwxNjcuMzJoLTM1YTI1LjY3LDI1LjY3LDAsMCwwLDIsOS42NSwxNi4xMiwxNi4xMiwwLDAsMCw1LjI5LDYuODMsMTMuMTksMTMuMTksMCwwLDAsOCwyLjUxLDE0LjYxLDE0LjYxLDAsMCwwLDcuNzgtMiwxOS41OSwxOS41OSwwLDAsMCw1Ljg2LTUuNzVsNS40MSw0LjY0YTIzLjY0LDIzLjY0LDAsMCwxLTcuNjYsNy45NCwyMS40NiwyMS40NiwwLDAsMS0xMS44NywzLjA5LDIyLjMsMjIuMywwLDAsMS0xMi40OS0zLjU0LDIzLjE4LDIzLjE4LDAsMCwxLTguMzUt
+    OS44MSwzMy4xNywzMy4xNywwLDAsMS0yLjk0LTE0LjI0di0yLjI2QTM2LDM2LDAsMCwxLDUyMywxNDguNzhhMjQuODEsMjQuODEsMCwwLDEsOC4zNS0xMC4yMSwyMC41OCwyMC41OCwwLDAsMSwyMy4xMSwwLDIwLjg1LDIwLjg1LDAsMCwxLDcuMDYsOS44NCw0Mi4xLDQyLjEsMCwwLDEsMi4zLDE0LjVabS05LTguNjVhMjIuODksMjIuODksMCwwLDAtMy4yOC0xMS4yMXEtMi44OS00LjUtOS4xMi00LjUxYTExLjE1LDExLjE1LDAsMCwwLTguOTIsNC4zcS0zLjU3LDQuMzEtNC40NywxMi4xNmgyNS43OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNS44MSAtNDAuMDcpIi8+PHBhdGggY2xhc3M9ImNscy00IiBkPSJNNjU4LjIsMTM2LjFsLTE1LDU3LjA2SDYzNmwtMTIuNTQtNDMuMDktMTIuMjUsNDMuMDloLTcuMjNsLTE1LTU3LjA2aDguOUw2MDgsMTc4LjQ1bDEyLTQyLjM1aDcuMjNsMTIuMiw0My4zLDEwLTQzLjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzUuODEgLTQwLjA3KSIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTY1MS41NSwxOTkuNzZsMjkuMS04My4zOWg3LjYxbC0yOSw4My4zOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNS44MSAtNDAuMDcpIi8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNODQ2LjExLDE5My45Yy0xMS43MywwLTIwLjQ5LTIuODEtMjYuMTItOC40NHMtOC40NC0xNC43LTguNDQtMjcuMDZWMTEyLjI3aDE5Ljd2NDMuMzJjMCwyLjM0LjE2LDQuODUuMzIsNy4zNWExOS4xOSwxOS4xOSwwLDAsMCwxLjcyLDYuODgsMTEu
+    MTMsMTEuMTMsMCwwLDAsNC41Myw1LjE2LDE2LDE2LDAsMCwwLDguNDQsMmMzLjYsMCw2LjQyLS42Miw4LjQ1LTJhMTIuMDksMTIuMDksMCwwLDAsNC41My01LjE2LDE5LjE5LDE5LjE5LDAsMCwwLDEuNzItNi44OGMuMTYtMi41LjMyLTUsLjMyLTcuMzVWMTEyLjI3aDE5LjU0VjE1OC40YzAsMTIuMzYtMi44MSwyMS40My04LjQ0LDI3LjA2UTg2My43LDE5My45MSw4NDYuMTEsMTkzLjlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzUuODEgLTQwLjA3KSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMyIgcG9pbnRzPSI4NjMuNzEgMTUxLjY0IDg2My43MSA3Mi4wNSA5MDguNDMgNzIuMDUgOTA4LjQzIDg4LjYyIDg4My40MSA4OC42MiA4ODMuNDEgMTAzLjMyIDkwNy4wMyAxMDMuMzIgOTA3LjAzIDExOS45IDg4My40MSAxMTkuOSA4ODMuNDEgMTM1LjA2IDkwOC40MyAxMzUuMDYgOTA4LjQzIDE1MS42NCA4NjMuNzEgMTUxLjY0Ii8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNOTg4LjQ0LDE5My45YTQ4Ljk0LDQ4Ljk0LDAsMCwxLTI3LjUzLTguNmw4LjI5LTE1LjY0YTM1Ljc0LDM1Ljc0LDAsMCwwLDguOTEsNS43OSwyMi41NywyMi41NywwLDAsMCw5LjM5LDJjMy41OSwwLDYuMjUtLjc4LDguMTMtMi41YTcuNDUsNy40NSwwLDAsMCwyLjY2LTUuNzksOC4xLDguMSwwLDAsMC0uNzgtMy40NCw3LjUsNy41LDAsMCwwLTIuMzUtMi42NSwxNiwxNiwwLDAsMC00LjA3LTIuMTljLTEuNTYtLjYzLTMuNTktMS40MS01Ljk0LTIuMTktMi42Ni0uNzktNS4zMi0xLjg4LTgt
+    Mi44MmEyMC45MSwyMC45MSwwLDAsMS02LjczLTQuMDYsMTcuMDUsMTcuMDUsMCwwLDEtNC42OS02LjI2LDIxLjgzLDIxLjgzLDAsMCwxLTEuODgtOS42OSwyOC42OSwyOC42OSwwLDAsMSwxLjg4LTEwLjY0LDIyLjY2LDIyLjY2LDAsMCwxLDUuNDctOC4xMywyNS4wNiwyNS4wNiwwLDAsMSw4LjYtNS4zMiwzMy4wOCwzMy4wOCwwLDAsMSwxMS40Mi0xLjg3LDQ5LjY3LDQ5LjY3LDAsMCwxLDEyLjM1LDEuNzIsNTQuNTcsNTQuNTcsMCwwLDEsMTEuODksNC41M2wtNy42NiwxNS4xN2EzNC40OCwzNC40OCwwLDAsMC02LjQyLTMuNzUsMTguNiwxOC42LDAsMCwwLTYuODgtMS40MSwxMS4zOSwxMS4zOSwwLDAsMC03LDIsNi42OSw2LjY5LDAsMCwwLTIuODIsNS42Myw2LjEzLDYuMTMsMCwwLDAsMS40MSw0LjA3LDEyLjE1LDEyLjE1LDAsMCwwLDMuNiwyLjVjMS40LjYzLDMsMS4yNSw0Ljg0LDEuODgsMS43Mi40NywzLjQ0LDEuMDksNS4xNiwxLjU2LDYuNzMsMi4xOSwxMS43Myw1LjMyLDE0LjcsOC45MXE0LjcsNS42NCw0LjcsMTQuNTVhMjYuNzMsMjYuNzMsMCwwLDEtMiwxMC45NCwyMywyMywwLDAsMS01Ljk0LDguNDUsMjYuNywyNi43LDAsMCwxLTkuNyw1LjQ3QTQ2LjM1LDQ2LjM1LDAsMCwxLDk4OC40NCwxOTMuOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNS44MSAtNDAuMDcpIi8+PHBvbHlnb24gY2xhc3M9ImNscy0zIiBwb2ludHM9IjEwMTEuODMgMTUxLjY0IDEwMTEuODMgODguNjIgOTk0LjQ4IDg4LjYyIDk5NC40OCA3Mi4wNSAxMDQ4Ljc0IDcy
+    LjA1IDEwNDguNzQgODguNjIgMTAzMS4zOCA4OC42MiAxMDMxLjM4IDE1MS42NCAxMDExLjgzIDE1MS42NCIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTExNTguMzcsMTc4LjU0aC0yOS43OWwtNC43OCwxMy45M2gtMjIuMjNsMzAuNTMtODAuMmgyMi43NmwzMC41Myw4MC4yaC0yMi4yM1ptLTUuNTMtMTUuODUtOS4zNi0yNi43LTkuMzYsMjYuN1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNS44MSAtNDAuMDcpIi8+PHBhdGggY2xhc3M9ImNscy00IiBkPSJNMTIxNS4zOSwxMTIuMjd2ODAuMmgtMjAuODV2LTgwLjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzUuODEgLTQwLjA3KSIvPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTc3Mi43MywxODguNzRsLS43OC4zMWE0OC40Myw0OC40MywwLDAsMS0yMC4zMyw0LjU0LDQ4LjM0LDQ4LjM0LDAsMCwxLTE3LjM2LTMuMTMsNDEuMjgsNDEuMjgsMCwwLDEtMTMuNDUtOC42LDM3LjMsMzcuMywwLDAsMS04Ljc1LTEzLDQyLjIsNDIuMiwwLDAsMSwwLTMxLjksNDAuNCw0MC40LDAsMCwxLDguNzUtMTMsNDEuMjgsNDEuMjgsMCwwLDEsMTMuNDUtOC42LDQ5LjI2LDQ5LjI2LDAsMCwxLDM0LjU2LDAsNDIsNDIsMCwwLDEsMTMuNjEsOC42LDM3LjM5LDM3LjM5LDAsMCwxLDguNzUsMTMsNDEuMzEsNDEuMzEsMCwwLDEsMy4xMywxNiw0MS44Miw0MS44MiwwLDAsMS0yLjY2LDE0Ljg2LDM3LjgzLDM3LjgzLDAsMCwxLTcuNSwxMi4xOWwtLjc5Ljk0LDE0Ljg2LDE1LjY0SDc4MC4wOFptLTIxLjExLTU5YTI1LjE2LDI1
+    LjE2LDAsMCwwLTkuMDcsMS43MiwyMy44NCwyMy44NCwwLDAsMC03LjUxLDQuODQsMjIuOSwyMi45LDAsMCwwLDAsMzMuMTYsMjMuODQsMjMuODQsMCwwLDAsNy41MSw0Ljg0LDI1LjE2LDI1LjE2LDAsMCwwLDkuMDcsMS43Miw0Ni4yOCw0Ni4yOCwwLDAsMCw1Ljc5LS42Miw1LjgzLDUuODMsMCwwLDAsMS44Ny0uOTRsLTEzLjEzLTEzLjkyaDE4LjE0bDYuMSw2LjQxLjkzLTEuMjVhMjIsMjIsMCwwLDAsNC4wNy0xMywyMi42MiwyMi42MiwwLDAsMC0xLjg4LTkuMjIsMjIuMiwyMi4yLDAsMCwwLTUuMTYtNy4zNSwyNCwyNCwwLDAsMC03LjUtNC44NUEyNi43MywyNi43MywwLDAsMCw3NTEuNjIsMTI5Ljc5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM1LjgxIC00MC4wNykiLz48L3N2Zz4=
+    " /></a>
 
 
+  
+                    <script  src="/api/cdn/assets/lib/l_2021.04.21.js"></script> 
+                    <script  src="g.js?t=1622953918479"></script>
+                    <script src='data:text/javascript;base64,Ci8qKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqCiAqIENvcHlyaWdodCAoYykgMjAyMCBRdWVzdCBBSSAoYWthIEdhbWVDb21tZXJjZSwgSW5jLikKICoKICogUGVybWlzc2lvbiBpcyBoZXJlYnkgZ3JhbnRlZCBhcyBwZXIgdGhlIHRlcm1zIG9mIHNlcnZpY2UgaW4gZ292ZXJuYW5jZSBiZXR3ZWVuIHlvdQogKiBhbmQgR2FtZUNvbW1lcmNlIEluYy4gRm9yIGRldGFpbGVkIHRlcm1zLCBwbGVhc2Ugc2VlIHRoZSBkb2N1bWVudCBhdDoKICoKICogICAgICBodHRwczovL3F1ZXN0LmFpL3Rlcm1zT2ZTZXJ2aWNlCiAqCiAqCiAqIFRIRSBTT0ZUV0FSRSBJUyBQUk9WSURFRCAiQVMgSVMiLCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTIE9SCiAqIElNUExJRUQsIElOQ0xVRElORyBCVVQgTk9UIExJTUlURUQgVE8gVEhFIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZLAogKiBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUKICogQVVUSE9SUyBPUiBDT1BZUklHSFQgSE9MREVSUyBCRSBMSUFCTEUgRk9SIEFOWSBDTEFJTSwgREFNQUdFUyBPUiBPVEhFUgogKiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQU4gQUNUSU9OIE9GIENPTlRSQUNULCBUT1JUIE9SIE9USEVSV0lTRSwgQVJJU0lORyBGUk9NLAogKiBPVVQgT0YgT1IgSU4gQ09OTkVDVElPTiBXSVRIIFRIRSBTT0ZUV0FSRSBPUiBUSEUgVVNFIE9SIE9USEVSIERFQUxJTkdTIElOIFRIRQogKiBTT0ZUV0FSRS4KICoKICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKi8KIApsZXQgcXVlc3RhaV9jdXN0b20gPSAoZnVuY3Rpb24oKSB7CiAgLy8gUFJJVkFURSBWQVJTICYgRlVOQ1RJT05TCgogIC8vIFBVQkxJQyBGVU5DVElPTlMKICBsZXQgcHVibGljU2NvcGUgPSB7fTsKCiAgcHVibGljU2NvcGUucGFnZWxvYWQgPSBmdW5jdGlvbigpIHsKICAgIC8vIENvZGUgdG8gZXhlY3V0ZSBvbiBwYWdlIGxvYWQgZ29lcyBoZXJlCiAgfQoKICByZXR1cm4gcHVibGljU2NvcGU7Cn0pKCk7CiAgICAgIA==' id='js_questai_custom.js'></script> 
 
-    </section>
+                    
 
-  main::before{
-    content: "";
-    background-color: rgb(200, 212, 208);
-
-}
-.container{
-
-border: 1px solid rgb(57, 55, 43);
-border-radius: 5px;
-position: absolute;
-top: 50px;
-
-text-align: center;
-
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-/* border: 1px solid blue; */
-margin: 8px 12px ;
-padding: 12px 12px;
-}
-.item{
-    margin: 8px 12px;
-    padding: 9px 5px;
-    border-radius: 5px;
-    border: rgb(39, 37, 37) 1px solid;
-    width: 300px;
-    /* height: 100px; */
-}
-#submit:hover{
-    background-color: #4d7bad;
-    color: rgb(255, 255, 255);
-}
-#submit{
-    color: #4d7bad;
-margin: 12px;
-}
-.login{
-    /* text-decoration: none; */
-
-}
-.login:hover{
-    color: #4d7bad;
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback Form</title>
-    <link rel="stylesheet" href="feedback.css">
-</head>
-<body>
-    <div class="main">
-        <div class="container">
-            <h2>We Need Your Valueable Feedback..</h2>
-            <form action="#" class="form">
-                <div class="input">
-                    <input type="text" class="item" placeholder="Enter Your Name">
-                </div>
-                <div class="input">
-                    <input type="email" class="item" placeholder="Email Address">
-                </div>
-                <!-- <div class="input">
-                    <input type="password" class="item" placeholder="Create password ">
-                </div> -->
-                <!-- <div class="input">
-                    <input type="password" class="item" placeholder="Confirm password ">
-                </div> -->
-                <div class="input">
-                    <input type="tel" class="item" placeholder="Contact Number">
-                </div>
-                <textarea  cols="50" rows="10" placeholder="Put Your Feedback Here..."></textarea>
-                <div class="input">
-                    <input type="submit" value="Submit" id="submit">
-                </div>
-
-            </form>
-            <!-- <p>Already Register? <a href="login.html" class="login">Login</a> </p> -->
-        </div>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="register.css">
-</head>
-
-<body>
-    <div class="main">
-    <div class="container">
-        <h2>Register To Get Latest Update !!</h2>
-        <form action="#" class="form">
-            <div class="input">
-                <input type="text" class="item" placeholder="Enter Your Name">
-            </div>
-            <div class="input">
-                <input type="email" class="item" placeholder="Email Address">
-            </div>
-            <div class="input">
-                <input type="password" class="item" placeholder="Create password ">
-            </div>
-            <div class="input">
-                <input type="password" class="item" placeholder="Confirm password ">
-            </div>
-            <div class="input">
-                <input type="tel" class="item" placeholder="Contact Number">
-            </div>
-            <div class="input">
-                <input type="submit" value="Submit" id="submit">
-            </div>
-
-        </form>
-        <p>Already Register? <a href="login.html" class="login">Login</a> </p>
-    </div>
-</div>
+  
 </body>
 
 </html>
-<html>
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.main::before{
-    content: "";
-    background-color: rgb(214, 206, 206);
-
-}
-.container{
-
-border: 1px solid rgb(44, 42, 42);
-border-radius: 5px;
-position: absolute;
-top: 50px;
-
-text-align: center;
-
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-/* border: 1px solid blue; */
-margin: 12px 12px ;
-padding: 12px 12px;
-}
-.item{
-    margin: 12px 12px;
-    padding: 9px 5px;
-    border-radius: 5px;
-    border: rgb(40, 40, 40) 1px solid;
-    width: 300px;
-    /* height: 100px; */
-}
-#submit:hover{
-    background-color: #4d7bad;
-    color: rgb(250, 300, 300);
-}
-#submit{
-    color: #4d7bad;
-}
-.login{
-    /* text-decoration: none; */
-
-}
-.login:hover{
-    color: #4d7bad;
-}
-
-
-
-</body>
-
-
-</html>
-
